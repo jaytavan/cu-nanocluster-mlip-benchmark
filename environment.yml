@@ -1,0 +1,19 @@
+name: cu-nanocluster-benchmark
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - ase>=3.28
+  - gpaw>=25.7
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - tqdm
+  - pip
+  - pip:
+    - mace-torch
+    - chgnet>=0.3.0
+    - matgl
+    - torch==2.11.0+cu126 --index-url https://download.pytorch.org/whl/cu126

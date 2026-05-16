@@ -1,0 +1,433 @@
+{
+  "summary": {
+    "max_geom_spread_eV": 0.213,
+    "max_geom_spread_at": "Cu40",
+    "model_mae_geom_std": {
+      "MACE-MP-0": 0.016,
+      "CHGNet": 0.041,
+      "TensorNet": 0.009
+    }
+  },
+  "per_size_geom": {
+    "Cu10_00": {
+      "config_id": "Cu10_00",
+      "n_sites": 6,
+      "dft_mean": 0.035912,
+      "dft_std": 0.2316610000359721,
+      "dft_min": -0.126443,
+      "dft_max": 0.496314,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 6,
+          "mae_eV": 0.18045233333333335,
+          "rmse_eV": 0.24618797265842754,
+          "spearman_rho": -0.48571428571428577
+        },
+        "CHGNet": {
+          "n_matched": 6,
+          "mae_eV": 0.35020066666666666,
+          "rmse_eV": 0.45993038690472854,
+          "spearman_rho": 0.08571428571428573
+        },
+        "TensorNet": {
+          "n_matched": 6,
+          "mae_eV": 0.23507433333333327,
+          "rmse_eV": 0.2559830708953231,
+          "spearman_rho": 0.942857142857143
+        }
+      }
+    },
+    "Cu10_01": {
+      "config_id": "Cu10_01",
+      "n_sites": 4,
+      "dft_mean": 0.046226500000000004,
+      "dft_std": 0.2609130362874764,
+      "dft_min": -0.112274,
+      "dft_max": 0.498054,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 4,
+          "mae_eV": 0.190933,
+          "rmse_eV": 0.2786208163113446,
+          "spearman_rho": -0.19999999999999998
+        },
+        "CHGNet": {
+          "n_matched": 4,
+          "mae_eV": 0.454234,
+          "rmse_eV": 0.5511585194678569,
+          "spearman_rho": -0.7999999999999999
+        },
+        "TensorNet": {
+          "n_matched": 4,
+          "mae_eV": 0.2214005,
+          "rmse_eV": 0.24499286417567348,
+          "spearman_rho": 0.39999999999999997
+        }
+      }
+    },
+    "Cu10_02": {
+      "config_id": "Cu10_02",
+      "n_sites": 5,
+      "dft_mean": 0.0160112,
+      "dft_std": 0.2406723995321441,
+      "dft_min": -0.114167,
+      "dft_max": 0.497245,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 5,
+          "mae_eV": 0.16752479999999997,
+          "rmse_eV": 0.25058775307265113,
+          "spearman_rho": -0.3
+        },
+        "CHGNet": {
+          "n_matched": 5,
+          "mae_eV": 0.4178352,
+          "rmse_eV": 0.507368813158633,
+          "spearman_rho": -0.7
+        },
+        "TensorNet": {
+          "n_matched": 5,
+          "mae_eV": 0.2081308,
+          "rmse_eV": 0.22937399848718687,
+          "spearman_rho": 0.7
+        }
+      }
+    },
+    "Cu20_00": {
+      "config_id": "Cu20_00",
+      "n_sites": 35,
+      "dft_mean": 0.2541392857142857,
+      "dft_std": 0.11837106452352557,
+      "dft_min": 0.039436,
+      "dft_max": 0.482585,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 35,
+          "mae_eV": 0.2766320857142857,
+          "rmse_eV": 0.3262098875366244,
+          "spearman_rho": 0.42240896358543417
+        },
+        "CHGNet": {
+          "n_matched": 35,
+          "mae_eV": 0.5202692857142855,
+          "rmse_eV": 0.5578483527225195,
+          "spearman_rho": 0.433643813655345
+        },
+        "TensorNet": {
+          "n_matched": 35,
+          "mae_eV": 0.16277442857142857,
+          "rmse_eV": 0.19136334805308386,
+          "spearman_rho": 0.3495798319327731
+        }
+      }
+    },
+    "Cu20_01": {
+      "config_id": "Cu20_01",
+      "n_sites": 27,
+      "dft_mean": 0.20494848148148148,
+      "dft_std": 0.0775178016182808,
+      "dft_min": 0.02903,
+      "dft_max": 0.351222,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 27,
+          "mae_eV": 0.3104932962962963,
+          "rmse_eV": 0.3423702298114545,
+          "spearman_rho": 0.09829059829059829
+        },
+        "CHGNet": {
+          "n_matched": 27,
+          "mae_eV": 0.590164037037037,
+          "rmse_eV": 0.5994264832509736,
+          "spearman_rho": -0.0463980463980464
+        },
+        "TensorNet": {
+          "n_matched": 27,
+          "mae_eV": 0.1555912962962963,
+          "rmse_eV": 0.18207957201617261,
+          "spearman_rho": -0.002442002442002442
+        }
+      }
+    },
+    "Cu20_02": {
+      "config_id": "Cu20_02",
+      "n_sites": 27,
+      "dft_mean": 0.20812988888888892,
+      "dft_std": 0.07754032788041633,
+      "dft_min": 0.05007,
+      "dft_max": 0.374721,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 27,
+          "mae_eV": 0.3121850740740741,
+          "rmse_eV": 0.34434544124517363,
+          "spearman_rho": 0.004884004884004884
+        },
+        "CHGNet": {
+          "n_matched": 27,
+          "mae_eV": 0.5921091481481481,
+          "rmse_eV": 0.6015560970550553,
+          "spearman_rho": -0.13614163614163613
+        },
+        "TensorNet": {
+          "n_matched": 27,
+          "mae_eV": 0.15730685185185184,
+          "rmse_eV": 0.18383056133006265,
+          "spearman_rho": -0.0873015873015873
+        }
+      }
+    },
+    "Cu30_00": {
+      "config_id": "Cu30_00",
+      "n_sites": 31,
+      "dft_mean": 0.18653296774193548,
+      "dft_std": 0.1693657397271406,
+      "dft_min": -0.119278,
+      "dft_max": 0.579238,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 31,
+          "mae_eV": 0.18671025806451613,
+          "rmse_eV": 0.24365145571452362,
+          "spearman_rho": 0.6036290322580645
+        },
+        "CHGNet": {
+          "n_matched": 31,
+          "mae_eV": 0.32110154838709676,
+          "rmse_eV": 0.36797556456505065,
+          "spearman_rho": 0.7262096774193549
+        },
+        "TensorNet": {
+          "n_matched": 31,
+          "mae_eV": 0.10573154838709678,
+          "rmse_eV": 0.13442895904480912,
+          "spearman_rho": 0.875
+        }
+      }
+    },
+    "Cu30_01": {
+      "config_id": "Cu30_01",
+      "n_sites": 14,
+      "dft_mean": 0.08830099999999999,
+      "dft_std": 0.1259176504307478,
+      "dft_min": -0.115715,
+      "dft_max": 0.305779,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 14,
+          "mae_eV": 0.18914171428571433,
+          "rmse_eV": 0.2384901522276579,
+          "spearman_rho": 0.2175824175824176
+        },
+        "CHGNet": {
+          "n_matched": 14,
+          "mae_eV": 0.440071,
+          "rmse_eV": 0.4625335855383909,
+          "spearman_rho": 0.16043956043956045
+        },
+        "TensorNet": {
+          "n_matched": 14,
+          "mae_eV": 0.08198742857142857,
+          "rmse_eV": 0.10449076265871544,
+          "spearman_rho": 0.6703296703296703
+        }
+      }
+    },
+    "Cu30_02": {
+      "config_id": "Cu30_02",
+      "n_sites": 15,
+      "dft_mean": 0.055310599999999994,
+      "dft_std": 0.12171271498836922,
+      "dft_min": -0.114675,
+      "dft_max": 0.268373,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 15,
+          "mae_eV": 0.1700146,
+          "rmse_eV": 0.2225897474986962,
+          "spearman_rho": 0.15
+        },
+        "CHGNet": {
+          "n_matched": 15,
+          "mae_eV": 0.4128072666666667,
+          "rmse_eV": 0.4325579459997624,
+          "spearman_rho": 0.2178571428571428
+        },
+        "TensorNet": {
+          "n_matched": 15,
+          "mae_eV": 0.076913,
+          "rmse_eV": 0.09983559755017245,
+          "spearman_rho": 0.6142857142857142
+        }
+      }
+    },
+    "Cu40_00": {
+      "config_id": "Cu40_00",
+      "n_sites": 10,
+      "dft_mean": 0.1961407,
+      "dft_std": 0.22877139266134217,
+      "dft_min": -0.0572,
+      "dft_max": 0.454169,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 10,
+          "mae_eV": 0.1696203,
+          "rmse_eV": 0.19993398694744222,
+          "spearman_rho": 0.7939393939393938
+        },
+        "CHGNet": {
+          "n_matched": 10,
+          "mae_eV": 0.31543770000000004,
+          "rmse_eV": 0.3571031008948256,
+          "spearman_rho": 0.8303030303030302
+        },
+        "TensorNet": {
+          "n_matched": 10,
+          "mae_eV": 0.08552230000000001,
+          "rmse_eV": 0.094752161435505,
+          "spearman_rho": 0.5878787878787878
+        }
+      }
+    },
+    "Cu40_01": {
+      "config_id": "Cu40_01",
+      "n_sites": 6,
+      "dft_mean": -0.01675,
+      "dft_std": 0.028834591460027082,
+      "dft_min": -0.055446,
+      "dft_max": 0.023642,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 6,
+          "mae_eV": 0.25451833333333335,
+          "rmse_eV": 0.26208097615304576,
+          "spearman_rho": -0.028571428571428574
+        },
+        "CHGNet": {
+          "n_matched": 6,
+          "mae_eV": 0.4688733333333333,
+          "rmse_eV": 0.47113719287627176,
+          "spearman_rho": 0.5428571428571429
+        },
+        "TensorNet": {
+          "n_matched": 6,
+          "mae_eV": 0.05232833333333333,
+          "rmse_eV": 0.05708796158560927,
+          "spearman_rho": 0.48571428571428577
+        }
+      }
+    },
+    "Cu40_02": {
+      "config_id": "Cu40_02",
+      "n_sites": 7,
+      "dft_mean": -0.013689999999999999,
+      "dft_std": 0.035552282293626586,
+      "dft_min": -0.069986,
+      "dft_max": 0.030369,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 7,
+          "mae_eV": 0.2374857142857143,
+          "rmse_eV": 0.24575135866329845,
+          "spearman_rho": 0.39285714285714296
+        },
+        "CHGNet": {
+          "n_matched": 7,
+          "mae_eV": 0.44878428571428575,
+          "rmse_eV": 0.452285529918246,
+          "spearman_rho": 0.7857142857142859
+        },
+        "TensorNet": {
+          "n_matched": 7,
+          "mae_eV": 0.05028428571428571,
+          "rmse_eV": 0.05487419762381172,
+          "spearman_rho": 0.7500000000000002
+        }
+      }
+    },
+    "Cu50_00": {
+      "config_id": "Cu50_00",
+      "n_sites": 63,
+      "dft_mean": 0.017009873015873016,
+      "dft_std": 0.10886284786313814,
+      "dft_min": -0.099851,
+      "dft_max": 0.479668,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 63,
+          "mae_eV": 0.10671568253968257,
+          "rmse_eV": 0.12403379215103068,
+          "spearman_rho": 0.7378400758988969
+        },
+        "CHGNet": {
+          "n_matched": 63,
+          "mae_eV": 0.32519606349206354,
+          "rmse_eV": 0.33180744318670014,
+          "spearman_rho": 0.61107910906298
+        },
+        "TensorNet": {
+          "n_matched": 63,
+          "mae_eV": 0.04205209523809524,
+          "rmse_eV": 0.06712002940338384,
+          "spearman_rho": 0.6260560675883257
+        }
+      }
+    },
+    "Cu50_01": {
+      "config_id": "Cu50_01",
+      "n_sites": 57,
+      "dft_mean": -0.00329782456140351,
+      "dft_std": 0.05259490917934221,
+      "dft_min": -0.070305,
+      "dft_max": 0.158393,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 57,
+          "mae_eV": 0.12102042105263158,
+          "rmse_eV": 0.13046264028852333,
+          "spearman_rho": 0.8507907700285197
+        },
+        "CHGNet": {
+          "n_matched": 57,
+          "mae_eV": 0.34895077192982465,
+          "rmse_eV": 0.35105531366953274,
+          "spearman_rho": 0.7277676950998186
+        },
+        "TensorNet": {
+          "n_matched": 57,
+          "mae_eV": 0.03663108771929824,
+          "rmse_eV": 0.04509957355187966,
+          "spearman_rho": 0.7262768991444127
+        }
+      }
+    },
+    "Cu50_02": {
+      "config_id": "Cu50_02",
+      "n_sites": 57,
+      "dft_mean": 0.0020271052631578965,
+      "dft_std": 0.06803509329484339,
+      "dft_min": -0.073758,
+      "dft_max": 0.351064,
+      "models": {
+        "MACE-MP-0": {
+          "n_matched": 57,
+          "mae_eV": 0.12384956140350875,
+          "rmse_eV": 0.13483656326560947,
+          "spearman_rho": 0.8538186061952956
+        },
+        "CHGNet": {
+          "n_matched": 57,
+          "mae_eV": 0.34894429824561407,
+          "rmse_eV": 0.35112729740273807,
+          "spearman_rho": 0.7078154624902355
+        },
+        "TensorNet": {
+          "n_matched": 57,
+          "mae_eV": 0.03773342105263158,
+          "rmse_eV": 0.04674437391740128,
+          "spearman_rho": 0.7350272232304901
+        }
+      }
+    }
+  }
+}
