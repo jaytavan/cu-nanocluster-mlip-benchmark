@@ -3,7 +3,7 @@
 **First systematic benchmark of universal machine-learning interatomic potentials (MLIPs) for hydrogen adsorption free energy prediction on finite copper nanoclusters.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Dataset DOI](https://img.shields.io/badge/Dataset-Zenodo-blue)](https://doi.org/ZENODO_DOI_PLACEHOLDER)
+[![Dataset DOI](https://img.shields.io/badge/Dataset-Zenodo-blue)](https://doi.org/10.5281/zenodo.20225470)
 
 ---
 
@@ -11,7 +11,7 @@
 
 This repository accompanies the paper:
 
-> Tavana, J. *Benchmarking Foundation ML Interatomic Potentials for HER Activity Screening of Copper Nanoclusters.* **ACS Catalysis** (submitted 2026). Preprint: arXiv:ARXIV_ID_PLACEHOLDER
+> Tavana, J. *Benchmarking Foundation ML Interatomic Potentials for HER Activity Screening of Copper Nanoclusters.* **ACS Catalysis** (submitted 2026). Preprint: arXiv (preprint pending)
 
 We benchmark three universal MLIP foundation models — **MACE-MP-0**, **CHGNet**, and **TensorNet** — on predicting hydrogen adsorption free energy (ΔG_H*) for Cu nanoclusters (Cu₁₀–Cu₅₀), providing the first systematic evaluation on finite, non-periodic cluster systems for catalysis screening.
 
@@ -96,7 +96,7 @@ Each `results_CuN_XX.json` file contains per-site dictionaries with:
 }
 ```
 
-**Full dataset with wavefunction files and model checkpoints:** [Zenodo DOI: ZENODO_DOI_PLACEHOLDER]
+**Full dataset with wavefunction files and model checkpoints:** [Zenodo DOI: 10.5281/zenodo.20225470]
 
 ---
 
@@ -164,7 +164,7 @@ If you use this dataset or benchmark in your work, please cite:
   author  = {Tavana, Jalal},
   journal = {ACS Catalysis},
   year    = {2026},
-  note    = {arXiv:ARXIV_ID_PLACEHOLDER}
+  note    = {arXiv (preprint pending)}
 }
 ```
 
@@ -175,7 +175,7 @@ Dataset citation:
   title     = {Cu Nanocluster MLIP Benchmark Dataset},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {ZENODO_DOI_PLACEHOLDER}
+  doi       = {10.5281/zenodo.20225470}
 }
 ```
 
